@@ -42,4 +42,98 @@ print(abs(x))
 #     it's a cold day' \
 #     wear warm clothes
 
+hot_day = True
+cold_day = False
+
+print(' ')
+print(' ')
+print(' ')
+print(' **Fungsi If dan else**')
+if hot_day:
+    print("it's a hot day")
+    print('drink a plenty of water')
+elif cold_day:
+    print('it is a cold day')
+    print('use your jacket')
+else:
+    print('its lovely day')
+
+print(f'alhamdulillah alaa kulli hal, enjoy your day')
+
+print('')
+print('')
+print('EXAMPLE')
+# price of a house is 1 million
+# if buyer has a good credit
+#     put down 10 % dp
+# otherwise
+#     they need to put down 20 %
+
+good_credit = False
+bad_credit = False
+
+if good_credit:
+    print('put down 10 % DP')
+elif bad_credit:
+    print('put down 20 % DP')
+else:
+    print('check testimony from their office')
+
+print('thanks for your visiting')
+
+
+print('')
+print('**EXAMPLE 2**')
+experience_programming = False
+not_experience_yet= True
+
+if experience_programming:
+    print('easy learning a new language')
+elif not_experience_yet:
+    print('need more and more exercise')
+else:
+    print('anyway learning is always fun')
+print('alhamdulillah alaa kulli hal')
+
+
+print('')
+print('**EXAMPLE 3, Sholat Subuh**')
+shubuh_in_a_mosque = True
+shubuh_in_home = False
+
+if shubuh_in_a_mosque:
+    print('Cah bagus, Insya Allah dicintai Allah')
+elif shubuh_in_home:
+    print('Cah bagus, apakah di tempatmu sedang hujan atau sedang pandemi')
+else:
+    print('Mengapa anda tidak sholat')
+print('Mohonlah pertolongan Allah dengan sabar dan sholat')
+
+
+print('')
+print('**EXAMPLE 4, Pemilu 2024**')
+usia = input('berapa usiamu di 2024?: ')
+b = 18
+
+if int(usia)> b:
+    print('Akan mengikuti pemilu')
+elif int(usia)==b:
+    print('Ikut pemilu untuk pertama kalinya')
+else:
+    print('masih bocil kudu mikirin sekolah dulu saja')
+
+
+print('')
+print('**EXAMPLE 5, Muslim atau Muslimah**')
+memakai_jilbab = False
+pakai_baju_koko = False
+
+if memakai_jilbab:
+    print('Berati kamu muslimah, insya ALlah kamu taat ya dan ahli syurga')
+elif pakai_baju_koko:
+    print('berati kamu muslim, jangan lupakan sholat ya')
+else:
+    print('Asal menutup aurat, syahdat dan sholat maka anda muslim')
+print('Mohonlah pertolongan Allah dengan sabar dan sholat')
+
 
