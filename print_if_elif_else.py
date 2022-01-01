@@ -110,17 +110,17 @@ else:
 print('Mohonlah pertolongan Allah dengan sabar dan sholat')
 
 
-# print('')
-# print('**EXAMPLE 4, Pemilu 2024**')
-# usia = input('berapa usiamu di 2024?: ')
-# b = 18
-#
-# if int(usia)> b:
-#     print('Akan mengikuti pemilu')
-# elif int(usia)==b:
-#     print('Ikut pemilu untuk pertama kalinya')
-# else:
-#     print('masih bocil kudu mikirin sekolah dulu saja')
+print('')
+print('**EXAMPLE 4, Pemilu 2024**')
+usia = input('berapa usiamu di 2024?: ')
+
+
+if int(usia)< 18:
+    print('belum cukup usia')
+elif int(usia)>80:
+    print('Perbanyak istighfar, udah tua kek')
+else:
+    print('Cocok nih, pilihlah yang benar benar memperjuangkan rakyat')
 
 
 print('')
