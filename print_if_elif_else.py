@@ -110,17 +110,17 @@ else:
 print('Mohonlah pertolongan Allah dengan sabar dan sholat')
 
 
-print('')
-print('**EXAMPLE 4, Pemilu 2024**')
-usia = input('berapa usiamu di 2024?: ')
-b = 18
-
-if int(usia)> b:
-    print('Akan mengikuti pemilu')
-elif int(usia)==b:
-    print('Ikut pemilu untuk pertama kalinya')
-else:
-    print('masih bocil kudu mikirin sekolah dulu saja')
+# print('')
+# print('**EXAMPLE 4, Pemilu 2024**')
+# usia = input('berapa usiamu di 2024?: ')
+# b = 18
+#
+# if int(usia)> b:
+#     print('Akan mengikuti pemilu')
+# elif int(usia)==b:
+#     print('Ikut pemilu untuk pertama kalinya')
+# else:
+#     print('masih bocil kudu mikirin sekolah dulu saja')
 
 
 print('')
@@ -136,4 +136,16 @@ else:
     print('Asal menutup aurat, syahdat dan sholat maka anda muslim')
 print('Mohonlah pertolongan Allah dengan sabar dan sholat')
 
+
+
+print('')
+print('**EXAMPLE 6, Uang Muka Perumahan**')
+harga_rumah = 500000000
+have_good_record=False
+
+if have_good_record:
+    downpayment = 0.1 * harga_rumah
+else:
+    downpayment = 0.5 * harga_rumah
+print(f'DP yang dibayar:IDR {downpayment}')
 
