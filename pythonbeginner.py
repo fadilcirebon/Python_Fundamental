@@ -24,7 +24,22 @@ print('fungsi pembulatan')
 y = 4.50
 print(round(y))
 
+
+
+
 #fungsi absolute number
 x = -17
 print(abs(x))
+#
+
+
+# IF ELSE
+
+# if it's hot'
+#     it's a hot day' \
+#     drink plenty of water
+# otherwise if it's cold' \
+#     it's a cold day' \
+#     wear warm clothes
+
 
