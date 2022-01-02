@@ -52,5 +52,11 @@ print(numbers3)
 
 print('#'*100)
 print('write program that REMOVE THE DUPLICATES IN THE LIST')
+numbers = [2,2,4,6,3,4,6,1]
+uniques = []
+for number in numbers:
+    if number not in uniques:
+        uniques.append((number))
+print(uniques)
 
 
