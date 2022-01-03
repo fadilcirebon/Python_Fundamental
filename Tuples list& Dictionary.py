@@ -17,7 +17,7 @@ digit_mapping   ={
     '5':'five',
     '6':'six',
     '7':'seven'
-    }
+    }   
 
 output=''
 for ph in phone:
